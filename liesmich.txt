@@ -1,0 +1,79 @@
+==== Treue-Rabatt Modul für die Auftragszusammenfassung ===
+
+=== Getestet mit Zen Cart 1.5.6 deutsch & PHP 7.3 ===
+
+= Diese Modul ist sehr einfach zu installieren. =
+
+###########################################################################################
+#                                                                                         #
+# Original Modul für die englische Zen Cart Version:                                      #
+# https://www.zen-cart.com/downloads.php?do=file&id=1917                                  #
+#                              #
+#                                                                                         #
+# Deutsch Übersetzung von Markus Hoffmann                                                 #
+# https://vcpforum-shop.de                                                                #
+#                                                                                         #
+###########################################################################################
+
+Zen Cart Treue Rabatt
+
+Der Zweck dieses Zen-Cart Auftragszusammenfassungmoduls besteht darin, ein grundlegendes
+Kundenbindungsprogramm / Rabatt-Schema bereitzustellen, das Kunden mit Rabatten für jede
+Bestellung belohnt, basierend auf dem Betrag, der in früheren Zeiträumen ausgegeben wurde.
+
+Dieses Modul summiert zum Zeitpunkt der Bestellung die gesamten Einkaufsbeträge, welche der
+Kunde im vordefinierten Zeitraum (Einstellbar im Adminbereich) im Shop ausgegeben hat und
+berechnet den (ebenfalls im Adminbereich) definierten Rabatt.
+
+Zum Beispiel haben Sie im Adminbereich den vordefinierte Zeitraum auf einen Monat gesetzt
+und richten eine Tabelle der Rabatte ein, die 5.0% Rabatt gewährt, wenn im Monat über 1000€
+ausgegeben wurden (d.h. vorherige 31 Tage, nicht Kalendermonat ) oder 7,5%, wenn im Monat
+über 1500€ ausgegeben wurden.
+
+
+===Datenbank Änderungen===
+Konfigurationstabellen in der Datenbank ändern sich wie bei allen Zusammenfassungmodulen.
+
+
+===Core File Änderungen===
+KEINE
+
+
++++++++++++===Installation===+++++++++++
+
+
+1. !!!! Erstellen Sie eine Sicherung der Datenbank !!!!
+
+ 
+================================================================  
+   
+   
+2. Laden Sie die Paketdateien und Verzeichnisse in ihr Zen Cart Verzeichnis hoch und achten
+   Sie darauf, die Ordner-Struktur beizubehalten. Für frische Installationen gibt es keine
+   Überschreibungen.
+
+
+================================================================
+
+
+3. Gehen Sie im Adminbereich zu Module >> Zusammenfassung >> Treue-Rabatt um das Modul zu
+   aktivieren und einzurichten.
+
+
+
+================================================================
+
+
+Das war's!        
+
+06/30/2013  1.3   PRO-Webs.net | Revived for PHP 5.X and Zen Cart 1.5.X		
+12/04/2016  1.4   PRO-Webs.net Versioning update
+12/08/2017  Deutsche Übersetzung durch Markus Hoffmann	
+2018-03-29 webchills		
+Version 1.5
+Bugfix für Gutscheine im Warenkorb
+Anpassungen für PHP 7.1
+Installer multilingual gemäß zen-cart-pro.at Standards
+2019-11- 2 4  webchills		
+Version 1.5.1
+Anpassungen für PHP 7.3                                                                                                              
